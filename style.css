@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .container{
     display: flex;
@@ -5,4 +11,18 @@
     width: 50vh;
     align-items: center;
     margin: auto;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-top: 5rem;
+
+}
+
+.description{
+    margin: auto;
+    padding: 1rem 0rem;
+}
+
+.change-table{
+    border: 1px solid black;
 }
